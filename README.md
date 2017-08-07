@@ -52,3 +52,6 @@ password: Cvwsdecxxf9pK4F669hrNK83JiHYTvttzmEsn4s4GHxcAoBSw46hg3yjqKT8
 * Drag & Drop tất cả file trong folder `dest`
 * Sửa `<base href="/">` trong file html theo tên app (vd: `<base href="/my-app/">`)
 
+# Soạn thảo online
+Bạn có thể sử dụng https://stackblitz.io
+Ví dụ: https://codegym.stackblitz.io
