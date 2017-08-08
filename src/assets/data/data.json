@@ -1,0 +1,32 @@
+[
+    {
+        "id":"1",
+        "name": "Đếm ngày xa em",
+        "url": "./assets/data/Dem-Ngay-Xa-Em-OnlyC-Lou-Hoang.mp3",
+        "singer": "OnlyC-Lou-Hoang"
+    },
+    {
+        "id": "2",
+        "name": "Lạc trôi",
+        "url": "./assets/data/Lac-Troi-Son-Tung-M-TP.mp3",
+        "singer": "Sơn Tùng"
+    },
+    {
+        "id":"3",
+        "name": "Như phút ban đầu",
+        "url": "./assets/data/Nhu-Phut-Ban-Dau-Noo-Phuoc-Thinh.mp3",
+        "singer": "Noo Phước Thịnh"
+    },
+    {
+        "id": "4",
+        "name": "Phía sau một cô gái",
+        "url": "./assets/data/Phia-Sau-Mot-Co-Gai-Soobin-Hoang-Son.mp3",
+        "singer": "Soobin Hoàng Sơn"
+    },
+    {
+        "id":"5",
+        "name": "Yêu là tha thu",
+        "url": "./assets/data/Yeu-La-Tha-Thu-Em-Chua-18-OST-OnlyC.mp3",
+        "singer": "OST-OnlyC"
+    }
+]

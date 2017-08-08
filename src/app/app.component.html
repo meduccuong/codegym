@@ -1,0 +1,33 @@
+  <div class="container">
+<div class="col-sm-8 col-sm-offset-2">
+                    <div class="row allSong">
+                      <div style="width:100%;">
+                      <player (nextEmit)="clickNext($event)" (previousEmit)="previousClick($event)"></player>
+                      </div>
+                        <div class="col-sm-12">
+                            <div class="row scorllSong">
+                                <ul class="list list-song">
+                                    <li *ngFor="let item of listSongs">
+                                        <div class="col col1 active"><span class="item-song"></span></div>
+                                        <div class="col col2" (click)="selectSong(item)" >{{item.name}}</div>
+                                        <div class="col col3">{{item.singer}}</div>
+                                        <div class="col col4">4</div>
+                                        <div class="col col5">
+                                            <span class="glyphicon glyphicon-facetime-video"></span>
+                                        </div>
+                                        <div class="col col6">
+                                            <span class="glyphicon glyphicon-download-alt"></span>
+                                        </div>
+                                        <div class="col col7">
+                                            <span class="glyphicon glyphicon-thumbs-up"></span>
+                                        </div>
+                                        <div class="col col8">
+                                            <span class="glyphicon glyphicon-thumbs-down"></span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>                   
+                    </div>
+                </div>
+  </div>

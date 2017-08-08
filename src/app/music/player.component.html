@@ -1,0 +1,42 @@
+   <div class="col-sm-12 back-song">
+       <audio #player>
+        <source type="audio/mpeg" src="{{urlAudio}}">
+    </audio>
+        <div class="row">
+            <div class="w100pt content content-song">
+                <h3 class="text-center">{{currentAudio.name}}</h3>
+                <h4 class="text-center">{{currentAudio.singer}}</h4>
+            </div>
+            <div class="w100pt timeline">
+                <!-- <div class="timeOnline"></div> -->
+            </div>
+            <div class="w100pt allButton">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="row">
+                            <ul>
+                                <li><span class="btn glyphicon glyphicon-step-backward" (click)="previousAction()"></span></li>
+                                <li><span id="state" class="btn glyphicon glyphicon-pause" (click)="processState($event.target)"></span></li>
+                                <li><span class="btn glyphicon glyphicon-step-forward" (click)="nextAction()"></span></li>
+                                <li><span class="btn glyphicon glyphicon-volume-up"></span></li>
+                                <li><span class="btn btn-timevol"></span></li>
+                                <li>
+                                    <span class="time">02:05</span> |
+                                    <span class="time">05:20</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="row">
+                            <ul>
+                                <li><span class="btn glyphicon glyphicon-volume-off"></span></li>
+                                <li><span class="btn glyphicon glyphicon-download-alt"></span></li>
+                                <li><span class="btn glyphicon glyphicon-refresh"></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>                            
+    </div>
