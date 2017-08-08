@@ -48,9 +48,22 @@ https://codegym.scm.azurewebsites.net/basicauth
 username: $codegym
 password: Cvwsdecxxf9pK4F669hrNK83JiHYTvttzmEsn4s4GHxcAoBSw46hg3yjqKT8
 
+
+`<configuration>
+   <system.webServer>
+      <staticContent>
+         <mimeMap fileExtension=".mp3" mimeType="audio/mp3" />
+         <mimeMap fileExtension=".mp4" mimeType="audio/mp4" />
+      </staticContent>
+   </system.webServer>
+</configuration>`
+
+
+
 * Tạo thư mục trong `wwwroot` (vd: my-app)
 * Drag & Drop tất cả file trong folder `dest`
 * Sửa `<base href="/">` trong file html theo tên app (vd: `<base href="/my-app/">`)
+* Xem kết quả: https://codegym.azurewebsites.net/my-app
 
 # Soạn thảo online
 Bạn có thể sử dụng https://stackblitz.io
